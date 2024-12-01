@@ -1,0 +1,46 @@
+.my-list {
+  list-style-type: circle;
+}
+.rental-car-containers {
+  /* min-width: minimumis zgvari; */
+  max-width: 640px;
+  height: 360px;
+  background-color: #54a6ff;
+  padding-left: 24px;
+  padding-top: 24px;
+  width: 100%;
+  margin: 100px;
+  border-radius: 10px;
+  background-image: url(./img/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.rentar-title {
+  font-size: 32px;
+  color: aliceblue;
+  margin-bottom: 16px;
+}
+.rental-car-containers .rentar-desc {
+  color: aliceblue;
+  max-width: 284px;
+}
+.rentar-btn {
+  width: 120px;
+  height: 44px;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-weight: bold;
+  background-color: #3563e9;
+  border: none;
+  border-radius: 4px;
+}
+.rentar-btn a {
+  color: aliceblue;
+  font-weight: bold;
+  text-decoration: none;
+}
